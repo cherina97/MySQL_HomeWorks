@@ -413,11 +413,11 @@ select * from books where price not between 200 and 600;
 
 select * from books;
 
-set sql_safe_updates = 0;
 delete from books where id = 5;
 delete from books where title = "Джедайські техніки";
 delete from books where isbn = "9796171274587";
-set sql_safe_updates = 1;
+
+
 
 
 
